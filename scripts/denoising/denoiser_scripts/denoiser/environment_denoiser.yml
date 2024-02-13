@@ -1,0 +1,14 @@
+name: denoiser
+dependencies:
+    - python=3.6
+    - nibabel
+    - numpy
+    - pandas
+    - matplotlib=2.1.0
+    - scipy
+    - patsy
+    - seaborn
+    - jinja2
+    - nitime
+    - pip:
+        - git+https://github.com/chrisfilo/nilearn.git@enh/carpet_plot
